@@ -98,4 +98,6 @@
     </tbody>
 </table>
 
+Private field repositories are not listed on this public overview.
+
 </tbody></table>
