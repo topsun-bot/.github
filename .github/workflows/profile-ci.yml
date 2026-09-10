@@ -1,0 +1,31 @@
+name: Profile CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "profile/**"
+      - ".github/workflows/profile-ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "profile/**"
+      - ".github/workflows/profile-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify profile README
+        run: |
+          set -euo pipefail
+          test -f profile/README.md
+          test -s profile/README.md
+          grep -q 'TOPSUN' profile/README.md
+          grep -qE 'topsun-bot/[A-Za-z0-9._-]+' profile/README.md

@@ -1,0 +1,50 @@
+name: Issue auto-assign
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign author when they have write access
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const login = context.payload.issue.user.login;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+
+            let canWrite = false;
+            try {
+              const { data } = await github.rest.repos.getCollaboratorPermissionLevel({
+                owner,
+                repo,
+                username: login,
+              });
+              canWrite = ['admin', 'maintain', 'write'].includes(data.permission);
+            } catch (_) {
+              // Not a collaborator, or the lookup is not permitted.
+            }
+
+            if (canWrite) {
+              await github.rest.issues.addAssignees({
+                owner,
+                repo,
+                issue_number,
+                assignees: [login],
+              });
+              return;
+            }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: 'Thanks for opening this issue. Maintainers will triage it shortly.',
+            });
