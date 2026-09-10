@@ -64,7 +64,7 @@
 
 ## 开源与工程仓库
 
-公开仓库按方向归类。仓库名为英文代码链接，说明为中文一行。
+公开仓库按方向归类。仓库名为英文代码链接，说明为中文一行。fork / 上游派生仓在说明下注明出处与致谢。
 
 <table>
   <thead>
@@ -82,6 +82,8 @@
         <a href="https://github.com/topsun-bot/topsun_dimos"><code>topsun_dimos</code></a>
         <br />
         TOPSUN DimOS：面向物理空间的智能体操作系统，覆盖导航建图、感知、空间记忆与 MCP Skills；含 Unitree Go2 / G1 蓝图。
+        <br />
+        基于 [@dimensionalOS/dimos](https://github.com/dimensionalOS/dimos) 工作副本，致谢上游。
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/topsun_dimos?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/topsun_dimos?style=flat-square&cacheSeconds=86400" /></td>
@@ -91,6 +93,8 @@
         <a href="https://github.com/topsun-bot/HoloAgent"><code>HoloAgent</code></a>
         <br />
         通用机器人具身智能体框架：闭环执行、三维空间记忆与可落地技能（Horizon Robotics HoloAgent 工作副本）。
+        <br />
+        出处：[@HorizonRobotics/HoloAgent](https://github.com/HorizonRobotics/HoloAgent) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/HoloAgent?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/HoloAgent?style=flat-square&cacheSeconds=86400" /></td>
@@ -101,6 +105,8 @@
         <a href="https://github.com/topsun-bot/Elevator-LIO"><code>Elevator-LIO</code></a>
         <br />
         面向电梯非惯性运动与跨楼层定位的激光惯性里程计；可关闭电梯模式作为通用 LIO。
+        <br />
+        出处：[@xiaofan4122/Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/Elevator-LIO?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/Elevator-LIO?style=flat-square&cacheSeconds=86400" /></td>
@@ -110,6 +116,8 @@
         <a href="https://github.com/topsun-bot/Super-LIO"><code>Super-LIO</code></a>
         <br />
         紧凑建图策略的高效鲁棒激光惯性里程计（RA-L 2026）；本仓库跟踪 ROS 2 Humble / Iron / Jazzy。
+        <br />
+        出处：[@Liansheng-Wang/Super-LIO](https://github.com/Liansheng-Wang/Super-LIO) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/Super-LIO?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/Super-LIO?style=flat-square&cacheSeconds=86400" /></td>
@@ -119,6 +127,8 @@
         <a href="https://github.com/topsun-bot/FAST-LIVO2"><code>FAST-LIVO2</code></a>
         <br />
         快速直接法激光-惯性-视觉里程计，用于退化环境实时三维重建与机载定位（T-RO 2024）。
+        <br />
+        出处：[@hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/FAST-LIVO2?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/FAST-LIVO2?style=flat-square&cacheSeconds=86400" /></td>
@@ -128,6 +138,8 @@
         <a href="https://github.com/topsun-bot/FASTLIO2_ROS2"><code>FASTLIO2_ROS2</code></a>
         <br />
         FAST-LIO2 的 ROS 2 Humble 实现，含回环位姿图优化、两阶段 ICP 重定位与一致性地图精修（BA / HBA）。
+        <br />
+        出处：[@liangheming/FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/FASTLIO2_ROS2?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/FASTLIO2_ROS2?style=flat-square&cacheSeconds=86400" /></td>
@@ -137,6 +149,8 @@
         <a href="https://github.com/topsun-bot/livox_ros_driver2"><code>livox_ros_driver2</code></a>
         <br />
         Livox ROS / ROS 2 驱动（HAP、Mid-360），作为 LIO 栈的传感器前端。
+        <br />
+        出处：[@Livox-SDK/livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2) · 感谢原作者
       </td>
       <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/livox_ros_driver2?style=flat-square&cacheSeconds=86400" /></td>
       <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/livox_ros_driver2?style=flat-square&cacheSeconds=86400" /></td>
@@ -182,7 +196,7 @@
   </tbody>
 </table>
 
-未列入：空的 LeRobot 镜像，以及与具身产品无直接关系的工具仓。
+未列入：空的 LeRobot 镜像（出处：[@Seeed-Projects/lerobot](https://github.com/Seeed-Projects/lerobot)），以及与具身产品无直接关系的工具仓。
 
 ---
 
@@ -357,6 +371,21 @@
     </tr>
   </tbody>
 </table>
+
+---
+
+## 致谢 / 开源出处
+
+引用、fork 他人项目时注明出处并致谢原作者。上表各 fork / 工作副本行已内联出处；上游链接如下（一次列出便于查阅）：
+
+- [`topsun_dimos`](https://github.com/topsun-bot/topsun_dimos) ← [@dimensionalOS/dimos](https://github.com/dimensionalOS/dimos)
+- [`HoloAgent`](https://github.com/topsun-bot/HoloAgent) ← [@HorizonRobotics/HoloAgent](https://github.com/HorizonRobotics/HoloAgent)
+- [`Elevator-LIO`](https://github.com/topsun-bot/Elevator-LIO) ← [@xiaofan4122/Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO)
+- [`Super-LIO`](https://github.com/topsun-bot/Super-LIO) ← [@Liansheng-Wang/Super-LIO](https://github.com/Liansheng-Wang/Super-LIO)
+- [`FAST-LIVO2`](https://github.com/topsun-bot/FAST-LIVO2) ← [@hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)
+- [`FASTLIO2_ROS2`](https://github.com/topsun-bot/FASTLIO2_ROS2) ← [@liangheming/FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2)
+- [`livox_ros_driver2`](https://github.com/topsun-bot/livox_ros_driver2) ← [@Livox-SDK/livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
+- `lerobot` / `lerobot-1`（未列入上表）← [@Seeed-Projects/lerobot](https://github.com/Seeed-Projects/lerobot)
 
 ---
 
