@@ -44,9 +44,9 @@
       <sub>工业巡检 · 安防协同 · 应急救援</sub>
     </td>
     <td align="center" width="33%" valign="top">
-      <img src="assets/hero-goalker.jpg" alt="智能割草机器人 GOALKER" />
+      <img src="assets/hero-goalker.jpg" alt="智能割草机器人 GOALKER H3 PRO" />
       <br />
-      <strong>智能割草机器人 · GOALKER</strong>
+      <strong>智能割草机器人 · GOALKER H3 PRO</strong>
       <br />
       <sub>园林智能养护 · 从地面解放双手</sub>
     </td>
@@ -188,11 +188,12 @@
 
 ## 内部 / 私有仓库
 
-组织成员可见；公开访客打开会 404，属预期行为。本环境的 GitHub 令牌无法枚举私有仓库 README，故仅列出既有内部仓名称与可见性，不杜撰功能或指标。
+精选产品与工程仓（非全部内部仓）。组织成员可见；公开访客打开会 404，属预期行为。说明来自组织清单中的已有描述；无描述处仅按仓库名作一行标注，不杜撰指标或认证。
 
 <table>
   <thead>
     <tr>
+      <th align="center">方向</th>
       <th>仓库</th>
       <th align="center">可见性</th>
       <th>说明</th>
@@ -200,19 +201,159 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/topsun-bot/Robot-Brain"><code>Robot-Brain</code></a></td>
+      <td rowspan="6" align="center"><strong>运控与本体</strong></td>
+      <td><a href="https://github.com/topsun-bot/G1-LocoForge"><code>G1-LocoForge</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>G1 RL → 真机运控</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/unitreeg1_98"><code>unitreeg1_98</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>G1 训练</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/b2"><code>b2</code></a></td>
       <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
-      <td>内部仓库（组织成员可见）</td>
+      <td>B2 安全门控 SDK</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/robot-deploy"><code>robot-deploy</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>D1 推理与硬件栈</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/Robot-Brain"><code>Robot-Brain</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机器人大脑相关内部仓</td>
     </tr>
     <tr>
       <td><a href="https://github.com/topsun-bot/topsun-robot-service"><code>topsun-robot-service</code></a></td>
-      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
-      <td>内部仓库（组织成员可见）</td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机器人业务服务内部仓</td>
     </tr>
     <tr>
+      <td rowspan="9" align="center"><strong>导航巡检</strong></td>
       <td><a href="https://github.com/topsun-bot/Navigation"><code>Navigation</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>导航工程内部仓</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/go2w-security-patrol"><code>go2w-security-patrol</code></a></td>
       <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
-      <td>内部仓库（组织成员可见）</td>
+      <td>Go2W 安防巡检</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/go2w-health-monitor"><code>go2w-health-monitor</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>Go2W 健康监测</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/go2w-mcap-recorder"><code>go2w-mcap-recorder</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>Go2W MCAP 录制</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/Unitree-go2-Navi"><code>Unitree-go2-Navi</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>Go2 导航</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/nav3d"><code>nav3d</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>三维导航</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/spatial-mind"><code>spatial-mind</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>空间理解 / 感知相关</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/s11_robot_perception"><code>s11_robot_perception</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机器人感知</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/topsun_mower"><code>topsun_mower</code></a> · <a href="https://github.com/topsun-bot/Mower"><code>Mower</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>割草二次开发</td>
+    </tr>
+    <tr>
+      <td rowspan="5" align="center"><strong>操作与遥操作</strong></td>
+      <td><a href="https://github.com/topsun-bot/rml63_ac2_grasp"><code>rml63_ac2_grasp</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>RML63 + AC2 + D455 安全门控抓取</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/dual-arm-workcell"><code>dual-arm-workcell</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>D1 双臂工作台</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/x-arm-teleop"><code>x-arm-teleop</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机械臂遥操作</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/arcore-telepose"><code>arcore-telepose</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>ARCore 遥操作位姿</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/vr_controller"><code>vr_controller</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>VR 控制器遥操作</td>
+    </tr>
+    <tr>
+      <td rowspan="5" align="center"><strong>Agent 与平台</strong></td>
+      <td><a href="https://github.com/topsun-bot/NervAgent"><code>NervAgent</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>统一神经控制层</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/nervagent-adk-live"><code>nervagent-adk-live</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>NervAgent 在线 ADK</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/Autonomous-Lab"><code>Autonomous-Lab</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>多 Agent 研发编排</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/Agent_eval_paltform"><code>Agent_eval_paltform</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>Agent 评测平台</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/topsun_robot_eval_ws"><code>topsun_robot_eval_ws</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机器人评测工作区</td>
+    </tr>
+    <tr>
+      <td rowspan="5" align="center"><strong>数据与工具</strong></td>
+      <td><a href="https://github.com/topsun-bot/human_robotics"><code>human_robotics</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>人机 / 人形相关内部仓</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/robot-data-collector"><code>robot-data-collector</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>机器人数据采集</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/data_platform"><code>data_platform</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>数据平台</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/openpi"><code>openpi</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>OpenPI 相关内部仓</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/topsun-bot/magnetar-ax-deploy"><code>magnetar-ax-deploy</code></a></td>
+      <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
+      <td>Magnetar 部署相关</td>
     </tr>
   </tbody>
 </table>
