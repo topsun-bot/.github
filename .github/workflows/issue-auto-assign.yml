@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Assign author when they have write access
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const login = context.payload.issue.user.login;
