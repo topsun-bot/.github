@@ -8,7 +8,7 @@
 
 近三十年深耕始于优化园林劳作。从植被养护到多维交互，中坚智能正把「解放双手」的命题，从地面延申至立体空间。不止是工具，更是未来生活的智能伙伴。
 
-[TOPSUN-BOT](https://github.com/topsun-bot) 是中坚智能的开源与工程组织，沉淀智能体系统、感知定位、操作仿真与现场技能。现场工程覆盖 Unitree G1 / Go2W 二次开发、安防自主导航、机械臂集成、ROS 2 / SDK 联调与试点验收，公开入口见 [`skills`](https://github.com/topsun-bot/skills)。
+[TOPSUN-BOT](https://github.com/topsun-bot) 是中坚智能的开源与工程组织，沉淀世界模型与具身基础模型、智能体系统、感知定位、操作仿真与现场技能。现场工程覆盖 Unitree G1 / Go2W 二次开发、安防自主导航、机械臂集成、ROS 2 / SDK 联调与试点验收，公开入口见 [`skills`](https://github.com/topsun-bot/skills)。
 
 <a href="https://github.com/topsun-bot">
   <img src="https://badges.strrl.dev/years/topsun-bot?style=flat-square&logo=github" alt="Years">
@@ -64,7 +64,7 @@
 
 ## 开源与工程仓库
 
-公开仓库按方向归类。仓库名为英文代码链接，说明为中文一行。fork / 上游派生仓在说明下注明出处与致谢。
+公开仓库按方向归类。世界模型 / 具身基础模型置于表首。仓库名为英文代码链接，说明为中文一行。fork / 上游派生仓在说明下注明出处与致谢。
 
 <table>
   <thead>
@@ -76,6 +76,115 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td rowspan="10" align="center"><strong>世界模型 / 具身基础模型</strong></td>
+      <td>
+        <a href="https://github.com/topsun-bot/wm-vla-vln-vlm-survey"><code>wm-vla-vln-vlm-survey</code></a>
+        <br />
+        世界模型 × VLA / VLN / VLM 综述：≥100 篇已核验论文与开源图谱（topsun-bot 自研）。
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/wm-vla-vln-vlm-survey?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/wm-vla-vln-vlm-survey?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/cosmos-predict1"><code>cosmos-predict1</code></a>
+        <br />
+        Cosmos-Predict1：面向 Physical AI 的通用世界基础模型集合，可微调为下游定制世界模型。
+        <br />
+        出处：[@nvidia-cosmos/cosmos-predict1](https://github.com/nvidia-cosmos/cosmos-predict1) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/cosmos-predict1?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/cosmos-predict1?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/dreamerv3"><code>dreamerv3</code></a>
+        <br />
+        DreamerV3：用世界模型掌握多样任务域。
+        <br />
+        出处：[@danijar/dreamerv3](https://github.com/danijar/dreamerv3) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/dreamerv3?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/dreamerv3?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/EmbodiedGen"><code>EmbodiedGen</code></a>
+        <br />
+        EmbodiedGen：面向具身智能的生成式三维世界引擎。
+        <br />
+        出处：[@HorizonRobotics/EmbodiedGen](https://github.com/HorizonRobotics/EmbodiedGen) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/EmbodiedGen?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/EmbodiedGen?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/Isaac-GR00T"><code>Isaac-GR00T</code></a>
+        <br />
+        NVIDIA Isaac GR00T N1.7：面向通才机器人的基础模型。
+        <br />
+        出处：[@NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/Isaac-GR00T?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/Isaac-GR00T?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/openvla"><code>openvla</code></a>
+        <br />
+        OpenVLA：开源视觉-语言-动作模型，用于机器人操作。
+        <br />
+        出处：[@openvla/openvla](https://github.com/openvla/openvla) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/openvla?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/openvla?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/starVLA"><code>starVLA</code></a>
+        <br />
+        StarVLA：积木式视觉-语言-动作模型开发代码库。
+        <br />
+        出处：[@starVLA/starVLA](https://github.com/starVLA/starVLA) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/starVLA?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/starVLA?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/vjepa2"><code>vjepa2</code></a>
+        <br />
+        V-JEPA 2：从视频自监督学习的 PyTorch 代码与模型。
+        <br />
+        出处：[@facebookresearch/vjepa2](https://github.com/facebookresearch/vjepa2) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/vjepa2?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/vjepa2?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/NaVILA"><code>NaVILA</code></a>
+        <br />
+        NaVILA（RSS'25）：足式机器人视觉-语言-动作导航模型实现。
+        <br />
+        出处：[@AnjieCheng/NaVILA](https://github.com/AnjieCheng/NaVILA) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/NaVILA?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/NaVILA?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/topsun-bot/diffusion_policy"><code>diffusion_policy</code></a>
+        <br />
+        Diffusion Policy（RSS 2023）：通过动作扩散学习视觉运动策略。
+        <br />
+        出处：[@real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) · 感谢原作者
+      </td>
+      <td align="center"><img alt="Stars" src="https://img.shields.io/github/stars/topsun-bot/diffusion_policy?style=flat-square&cacheSeconds=86400" /></td>
+      <td align="center"><img alt="Forks" src="https://img.shields.io/github/forks/topsun-bot/diffusion_policy?style=flat-square&cacheSeconds=86400" /></td>
+    </tr>
     <tr>
       <td rowspan="2" align="center"><strong>智能体与系统</strong></td>
       <td>
@@ -196,6 +305,18 @@
   </tbody>
 </table>
 
+**同方向公开仓**（表内为核心栈；下列为同方向跟踪仓，说明取自各仓 GitHub description）
+
+- [`IsaacLab`](https://github.com/topsun-bot/IsaacLab) — 基于 NVIDIA Isaac Sim 的机器人学习统一框架。<br />出处：[@isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) · 感谢原作者
+- [`ijepa`](https://github.com/topsun-bot/ijepa) — I-JEPA：基于图像的联合嵌入预测架构官方代码（CVPR）。<br />出处：[@facebookresearch/ijepa](https://github.com/facebookresearch/ijepa) · 感谢原作者
+- [`VLN-CE`](https://github.com/topsun-bot/VLN-CE) — 基于 Habitat 的连续环境视觉-语言导航。<br />出处：[@jacobkrantz/VLN-CE](https://github.com/jacobkrantz/VLN-CE) · 感谢原作者
+- [`habitat-lab`](https://github.com/topsun-bot/habitat-lab) — 在多种任务与环境中训练具身智能体的模块化高层库。<br />出处：[@facebookresearch/habitat-lab](https://github.com/facebookresearch/habitat-lab) · 感谢原作者
+- [`octo`](https://github.com/topsun-bot/octo) — 基于 Transformer 的机器人策略，在约 80 万条多样化机器人轨迹上训练。<br />出处：[@octo-models/octo](https://github.com/octo-models/octo) · 感谢原作者
+- [`LIBERO`](https://github.com/topsun-bot/LIBERO) — 终身机器人学习中的知识迁移评测。<br />出处：[@Lifelong-Robot-Learning/LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) · 感谢原作者
+- [`SimplerEnv`](https://github.com/topsun-bot/SimplerEnv) — 在统一仿真设定下评测并复现真实世界机器人操作策略（如 RT-1、Octo）（CoRL 2024）。<br />出处：[@simpler-env/SimplerEnv](https://github.com/simpler-env/SimplerEnv) · 感谢原作者
+- [`VILA`](https://github.com/topsun-bot/VILA) — 面向边缘、数据中心与云端多模态任务的视觉语言模型家族。<br />出处：[@NVlabs/VILA](https://github.com/NVlabs/VILA) · 感谢原作者
+- [`prismatic-vlms`](https://github.com/topsun-bot/prismatic-vlms) — 训练视觉条件语言模型的灵活高效代码库。<br />出处：[@TRI-ML/prismatic-vlms](https://github.com/TRI-ML/prismatic-vlms) · 感谢原作者
+
 未列入：空的 LeRobot 镜像（出处：[@Seeed-Projects/lerobot](https://github.com/Seeed-Projects/lerobot)），以及与具身产品无直接关系的工具仓。
 
 ---
@@ -292,7 +413,12 @@
       <td>割草二次开发</td>
     </tr>
     <tr>
-      <td rowspan="5" align="center"><strong>操作与遥操作</strong></td>
+      <td rowspan="6" align="center"><strong>操作与遥操作</strong></td>
+      <td><a href="https://github.com/topsun-bot/Sight2Act"><code>Sight2Act</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>看到执行·人形具身</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/topsun-bot/rml63_ac2_grasp"><code>rml63_ac2_grasp</code></a></td>
       <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
       <td>RML63 + AC2 + D455 安全门控抓取</td>
@@ -344,7 +470,12 @@
       <td>机器人评测工作区</td>
     </tr>
     <tr>
-      <td rowspan="5" align="center"><strong>数据与工具</strong></td>
+      <td rowspan="6" align="center"><strong>数据与工具</strong></td>
+      <td><a href="https://github.com/topsun-bot/ros2_hzj"><code>ros2_hzj</code></a></td>
+      <td align="center"><img alt="私有" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E7%A7%81%E6%9C%89-6b7280?style=flat-square" /></td>
+      <td>ROS 2 / DDS 工作流（桦之坚）</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/topsun-bot/human_robotics"><code>human_robotics</code></a></td>
       <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
       <td>人机 / 人形相关内部仓</td>
@@ -385,6 +516,24 @@
 - [`FAST-LIVO2`](https://github.com/topsun-bot/FAST-LIVO2) ← [@hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)
 - [`FASTLIO2_ROS2`](https://github.com/topsun-bot/FASTLIO2_ROS2) ← [@liangheming/FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2)
 - [`livox_ros_driver2`](https://github.com/topsun-bot/livox_ros_driver2) ← [@Livox-SDK/livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
+- [`cosmos-predict1`](https://github.com/topsun-bot/cosmos-predict1) ← [@nvidia-cosmos/cosmos-predict1](https://github.com/nvidia-cosmos/cosmos-predict1)
+- [`dreamerv3`](https://github.com/topsun-bot/dreamerv3) ← [@danijar/dreamerv3](https://github.com/danijar/dreamerv3)
+- [`EmbodiedGen`](https://github.com/topsun-bot/EmbodiedGen) ← [@HorizonRobotics/EmbodiedGen](https://github.com/HorizonRobotics/EmbodiedGen)
+- [`Isaac-GR00T`](https://github.com/topsun-bot/Isaac-GR00T) ← [@NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T)
+- [`IsaacLab`](https://github.com/topsun-bot/IsaacLab) ← [@isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)
+- [`openvla`](https://github.com/topsun-bot/openvla) ← [@openvla/openvla](https://github.com/openvla/openvla)
+- [`starVLA`](https://github.com/topsun-bot/starVLA) ← [@starVLA/starVLA](https://github.com/starVLA/starVLA)
+- [`vjepa2`](https://github.com/topsun-bot/vjepa2) ← [@facebookresearch/vjepa2](https://github.com/facebookresearch/vjepa2)
+- [`ijepa`](https://github.com/topsun-bot/ijepa) ← [@facebookresearch/ijepa](https://github.com/facebookresearch/ijepa)
+- [`NaVILA`](https://github.com/topsun-bot/NaVILA) ← [@AnjieCheng/NaVILA](https://github.com/AnjieCheng/NaVILA)
+- [`VLN-CE`](https://github.com/topsun-bot/VLN-CE) ← [@jacobkrantz/VLN-CE](https://github.com/jacobkrantz/VLN-CE)
+- [`habitat-lab`](https://github.com/topsun-bot/habitat-lab) ← [@facebookresearch/habitat-lab](https://github.com/facebookresearch/habitat-lab)
+- [`diffusion_policy`](https://github.com/topsun-bot/diffusion_policy) ← [@real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy)
+- [`octo`](https://github.com/topsun-bot/octo) ← [@octo-models/octo](https://github.com/octo-models/octo)
+- [`LIBERO`](https://github.com/topsun-bot/LIBERO) ← [@Lifelong-Robot-Learning/LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)
+- [`SimplerEnv`](https://github.com/topsun-bot/SimplerEnv) ← [@simpler-env/SimplerEnv](https://github.com/simpler-env/SimplerEnv)
+- [`VILA`](https://github.com/topsun-bot/VILA) ← [@NVlabs/VILA](https://github.com/NVlabs/VILA)
+- [`prismatic-vlms`](https://github.com/topsun-bot/prismatic-vlms) ← [@TRI-ML/prismatic-vlms](https://github.com/TRI-ML/prismatic-vlms)
 - `lerobot` / `lerobot-1`（未列入上表）← [@Seeed-Projects/lerobot](https://github.com/Seeed-Projects/lerobot)
 
 ---
