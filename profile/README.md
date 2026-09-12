@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="320" alt="中坚智能">
+<img src="assets/logo.png" width="320" alt="TOPSUN BOT 中坚智能">
 
 # 中坚智能 / TOPSUN-BOT
 
