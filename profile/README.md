@@ -18,7 +18,7 @@
 
 从语言规划、现场观察到长任务执行，Robot Brain 将模型、记忆与机器人技能组织成一套完整的任务系统。
 
-<a href="assets/robot-brain/robot-brain-demo.mp4"><img src="https://img.shields.io/badge/VIDEO-实机演示-397461?style=for-the-badge" alt="观看完整实机演示" /></a>
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><img src="https://img.shields.io/badge/VIDEO-完整演示下载-397461?style=for-the-badge" alt="下载完整实机演示 MP4" /></a>
 <a href="assets/robot-brain/robot-brain-paper.pdf"><img src="https://img.shields.io/badge/PAPER-技术报告-B31B1B?style=for-the-badge" alt="阅读技术报告 PDF" /></a>
 <a href="https://github.com/topsun-bot/Robot-Brain"><img src="https://img.shields.io/badge/REPO-Robot_Brain-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Robot Brain 项目仓库（组织成员可见）" /></a>
 
@@ -33,24 +33,24 @@
 <table>
 <tr>
 <td width="50%" align="center">
-<a href="assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/navigation.gif" width="100%" alt="实机片段：Go2 在办公室中自主导航" /></a><br />
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/navigation.gif" width="100%" alt="实机片段：Go2 在办公室中自主导航" /></a><br />
 <strong>01 / 自主导航</strong><br />
 <sub>理解目的地，跨房间执行任务。</sub>
 </td>
 <td width="50%" align="center">
-<a href="assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/interaction.gif" width="100%" alt="实机片段：Go2 到达书房、面向现场同事观察" /></a><br />
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/interaction.gif" width="100%" alt="实机片段：Go2 到达书房、面向现场同事观察" /></a><br />
 <strong>02 / 现场观察</strong><br />
 <sub>获取房间与人员观察，支持后续判断。</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<a href="assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/reporting.gif" width="100%" alt="实机片段：Go2 返回后的汇报阶段，无声动图" /></a><br />
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/reporting.gif" width="100%" alt="实机片段：Go2 返回后的汇报阶段，无声动图" /></a><br />
 <strong>03 / 返回汇报</strong><br />
 <sub>带回任务结果，通过语音汇报。</sub>
 </td>
 <td width="50%" align="center">
-<a href="assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/docking.gif" width="100%" alt="实机片段：Go2 返回充电区域" /></a><br />
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><img src="assets/robot-brain/docking.gif" width="100%" alt="实机片段：Go2 返回充电区域" /></a><br />
 <strong>04 / 返回充电区域</strong><br />
 <sub>衔接任务结束后的回充流程。</sub>
 </td>
@@ -58,7 +58,7 @@
 </table>
 
 <p align="center">
-<a href="assets/robot-brain/robot-brain-demo.mp4"><strong>▶ 观看完整实机演示 · 4 分 47 秒 · 含语音与控制台</strong></a><br />
+<a href="https://github.com/topsun-bot/.github/raw/refs/heads/main/profile/assets/robot-brain/robot-brain-demo.mp4"><strong>↓ 下载完整实机演示 · 4 分 47 秒 · 含语音与控制台</strong></a><br />
 <sub>动图为同一次现场演示的原速、无声节选。</sub>
 </p>
 
