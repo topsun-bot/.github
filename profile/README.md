@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img src="assets/robot-brain/hero.svg" width="100%" alt="Robot Brain — 中坚智能自研的具身认知与任务执行框架" />
+<img src="assets/robot-brain/flagship.svg" width="100%" alt="Robot Brain — 中坚智能自研的具身认知与任务执行框架" />
 
 **让机器人理解一句话，走进真实环境，完成任务并带回结果。**
 
