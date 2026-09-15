@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
   <title id="title">Robot Brain — From language to real-world action</title>
-  <desc id="desc">Topsun Robot 的具身认知与任务执行框架。深绿色背景，薄荷色文字，以及象征感知与执行闭环的轨道图形。</desc>
+  <desc id="desc">中坚智能自研的具身认知与任务执行框架。深绿色背景，薄荷色文字，以及象征感知与执行闭环的轨道图形。</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1a17"/><stop offset="1" stop-color="#173b31"/></linearGradient>
     <radialGradient id="glow"><stop stop-color="#9cddb4" stop-opacity=".18"/><stop offset="1" stop-color="#9cddb4" stop-opacity="0"/></radialGradient>
@@ -9,10 +9,10 @@
   <rect width="1600" height="460" rx="24" fill="url(#bg)"/>
   <rect width="1600" height="460" rx="24" fill="url(#grid)"/>
   <circle cx="1290" cy="225" r="280" fill="url(#glow)"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="76" y="73" fill="#a7c7b6" font-size="17" letter-spacing="5">TOPSUN ROBOT / EMBODIED INTELLIGENCE</text>
+  <g font-family="Arial, Helvetica, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="76" y="73" fill="#a7c7b6" font-size="17" letter-spacing="5">TOPSUN BOT / IN-HOUSE ROBOTICS</text>
     <text x="70" y="204" fill="#e3f4dd" font-size="112" font-weight="700" letter-spacing="-5">Robot Brain</text>
-    <text x="76" y="265" fill="#f4f7ee" font-size="32">From language to real-world action.</text>
+    <text x="76" y="265" fill="#f4f7ee" font-size="32">中坚智能自研 · 具身认知与任务执行框架</text>
     <text x="76" y="309" fill="#a7c7b6" font-size="23">Grounded perception. Structured plans. Verified outcomes.</text>
     <path d="M76 354H947" stroke="#a5c7b6" stroke-opacity=".25"/>
     <text x="76" y="398" fill="#c4e8bc" font-size="17" letter-spacing="2">UNITREE GO2</text>
