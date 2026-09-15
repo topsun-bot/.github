@@ -30,6 +30,75 @@
 
 ---
 
+## 旗舰自研 · Robot Brain
+
+<div align="center">
+
+<img src="assets/robot-brain/hero.svg" width="100%" alt="Robot Brain — From language to real-world action" />
+
+**Robot Brain** 是中坚智能自研的具身认知与执行框架：让机器狗理解一句话指令，自主规划、观察环境、执行长任务，并带着证据回来汇报。
+
+<a href="assets/robot-brain/robot-brain-paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat-square" alt="Paper PDF" /></a>
+<a href="https://github.com/topsun-bot/Robot-Brain/blob/main/docs/assets/readme/robot-brain-demo.mp4"><img src="https://img.shields.io/badge/Video-Demo-397461?style=flat-square" alt="Demo Video" /></a>
+<a href="https://github.com/topsun-bot/Robot-Brain/blob/main/docs/project-guide.md"><img src="https://img.shields.io/badge/Docs-Guide-4777AD?style=flat-square" alt="Docs" /></a>
+<a href="https://github.com/topsun-bot/Robot-Brain"><img src="https://img.shields.io/badge/Repo-Robot--Brain-1f6feb?style=flat-square" alt="Repo" /></a>
+<img src="https://img.shields.io/badge/Platform-Unitree%20Go2-173b31?style=flat-square" alt="Unitree Go2" />
+<img src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" alt="内部仓库" />
+
+</div>
+
+### 从一句话到现场执行
+
+> 「去办公室看看，再去书房看看同事在做什么，最后回来汇报。」
+
+<table>
+  <tr>
+    <td width="62%" align="center">
+      <img src="assets/robot-brain/demo-scene.jpg" width="100%" alt="Robot Brain 实机演示：从语音指令到自主执行" />
+      <br />
+      <sub>实机演示：语音指令 → 自主规划 → 现场执行 → 返回汇报</sub>
+    </td>
+    <td width="38%" valign="top">
+      <strong>核心能力</strong>
+      <ul>
+        <li><b>语言与长任务</b>：一句话拆成多步计划，管理依赖、条件与确认；支持排队、取消与执行中修订。</li>
+        <li><b>观察与空间记忆</b>：记录房间、照片与物体观察，将人员与活动判断绑定到后续任务。</li>
+        <li><b>导航与设备协同</b>：跨房间导航、自主回充、家居控制，让任务跨越多个空间与设备。</li>
+        <li><b>证据驱动汇报</b>：带回任务结果，通过语音汇报，现场画面与控制台状态全程留痕。</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/robot-brain/interaction.gif" width="420" alt="Robot Brain 实机片段：Go2 到达书房、面向现场同事观察" />
+  <br />
+  <sub>实机片段：Go2 到达书房、面向现场同事进行观察</sub>
+</p>
+
+### 任务闭环
+
+<img src="assets/robot-brain/system-loop.svg" width="100%" alt="Robot Brain 任务闭环：指令 → 结构化计划 → 执行仲裁 → 技能与现场反馈" />
+
+### 技术报告 · 论文
+
+**《Robot Brain：面向真实机器人长任务的证据驱动执行与受控计划修订》**（TOPSUN Robot 项目技术报告 · 2026.09）
+
+- 持久化计划表示连接语言提案与任务调度，确定性执行核管理状态与行动承诺；
+- 带时效的观察证据、三值条件与技能契约纳入执行过程，未知信息不默认为否定事实；
+- 快照、局部提案、独立审查、状态核对与原子应用完成受控修订，保留已执行历史；
+- 30 次真实模型计划修订记录中，25 次合法修订精确匹配预设计划，5 次越界请求均被系统阻止，模型严格得分 **28/30**（评测未调用机器人技能，不能外推为实机端到端成功率）。
+
+<div align="center">
+
+[**阅读论文 PDF**](assets/robot-brain/robot-brain-paper.pdf) · [**系统架构图**](assets/robot-brain/embodied-agent-framework.svg) · [**仓库主页**](https://github.com/topsun-bot/Robot-Brain)
+
+<sub>Robot-Brain 为内部仓库（组织成员可见），公开访客打开仓库链接为 404，属预期行为。</sub>
+
+</div>
+
+---
+
 ## 功能展示
 
 官网产品画面（本地托管，避免 OSS 防盗链）。宣传片为静音循环，GitHub 无法稳定内嵌，请在 [中坚智能官网](https://topbot.topsunpower.cc/) 观看。
@@ -325,7 +394,7 @@
     <tr>
       <td><a href="https://github.com/topsun-bot/Robot-Brain"><code>Robot-Brain</code></a></td>
       <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
-      <td>机器人大脑相关内部仓</td>
+      <td>主页头条 · 旗舰自研具身大脑（展示与论文见主页顶部）</td>
     </tr>
     <tr>
       <td><a href="https://github.com/topsun-bot/topsun-robot-service"><code>topsun-robot-service</code></a></td>

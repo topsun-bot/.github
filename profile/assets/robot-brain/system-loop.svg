@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img" aria-labelledby="title desc">
+  <title id="title">Robot Brain：从指令到执行，再用现场反馈更新任务</title>
+  <desc id="desc">指令经结构化计划和执行仲裁调用技能。技能结果与现场观察回到任务记录及下一步决策；条件保留未知，修订保护已执行历史。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#397461" stroke-width="1.4"/></marker>
+  </defs>
+  <rect width="1280" height="650" rx="24" fill="#f3f6f0"/>
+  <g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="44" y="52" fill="#597467" font-size="16" letter-spacing="3">INSIDE ROBOT BRAIN</text>
+    <text x="44" y="100" fill="#153a2d" font-size="34" font-weight="700">规划有结构，行动有依据。</text>
+    <g fill="#fff" stroke="#d7e2d7" stroke-width="1.5">
+      <rect x="44" y="140" width="266" height="215" rx="18"/>
+      <rect x="350" y="140" width="266" height="215" rx="18"/>
+      <rect x="962" y="140" width="274" height="215" rx="18"/>
+    </g>
+    <rect x="656" y="140" width="266" height="215" rx="18" fill="#173b31"/>
+    <g fill="none" stroke="#397461" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M78 176h42a8 8 0 0 1 8 8v22a8 8 0 0 1-8 8H98l-14 12v-12h-6a8 8 0 0 1-8-8v-22a8 8 0 0 1 8-8Z"/>
+      <path d="M392 178h35v18h-35z M382 217h22v17h-22z M421 217h22v17h-22z M409 196v11h-16v10 M409 207h23v10"/>
+      <path d="M1001 180h51v33h-51z M1014 213l-13 20 M1040 213l13 20 M1027 180v-8 M1001 188h-9 M1052 188h9"/>
+      <circle cx="1016" cy="196" r="3"/><circle cx="1038" cy="196" r="3"/>
+      <path d="M316 247h25" marker-end="url(#arrow)"/>
+      <path d="M622 247h25" marker-end="url(#arrow)"/>
+      <path d="M928 247h25" marker-end="url(#arrow)"/>
+      <path d="M1099 363v33H483v-32" marker-end="url(#arrow)"/>
+    </g>
+    <g fill="none" stroke="#c4e8bc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m710 174 25 10v19c0 15-25 29-25 29s-25-14-25-29v-19Z"/>
+      <path d="m698 201 9 9 16-18"/>
+    </g>
+    <g font-size="25" font-weight="700" fill="#173b31">
+      <text x="70" y="276">理解指令</text><text x="376" y="276">组织计划</text>
+      <text x="682" y="276" fill="#eff8eb">执行仲裁</text><text x="988" y="276">调用技能</text>
+    </g>
+    <g font-size="19" fill="#60776a">
+      <text x="70" y="316">语言 · 场景 · 任务上下文</text>
+      <text x="376" y="316">步骤 · 依赖 · 条件</text>
+      <text x="682" y="316" fill="#b9d8c5">证据 · 资源 · 确认</text>
+      <text x="988" y="316">导航 · 视觉 · 语音 · 设备</text>
+    </g>
+    <rect x="635" y="380" width="345" height="32" rx="16" fill="#f3f6f0"/>
+    <text x="807" y="402" text-anchor="middle" fill="#397461" font-size="19">现场观察与结果 → 更新任务状态</text>
+    <path d="M44 438H1236" stroke="#d5e0d4"/>
+    <text x="44" y="482" fill="#173b31" font-size="23" font-weight="700">证据驱动条件</text>
+    <g font-size="18" text-anchor="middle">
+      <rect x="44" y="507" width="152" height="44" rx="22" fill="#dcebd4"/><text x="120" y="536" fill="#2a5c36">已确认成立</text>
+      <rect x="208" y="507" width="152" height="44" rx="22" fill="#e4e8e3"/><text x="284" y="536" fill="#526051">已确认不成立</text>
+      <rect x="372" y="507" width="152" height="44" rx="22" fill="#f5e5bb"/><text x="448" y="536" fill="#7a5b21">未知 / 需核验</text>
+    </g>
+    <text x="44" y="591" fill="#60776a" font-size="19">时间、置信度与目标绑定共同约束观察。</text>
+    <path d="M588 474v131" stroke="#d5e0d4"/>
+    <text x="640" y="482" fill="#173b31" font-size="23" font-weight="700">受控修订剩余任务</text>
+    <g font-size="18" text-anchor="middle">
+      <rect x="640" y="507" width="146" height="44" rx="10" fill="#e4e8e3"/><text x="713" y="536" fill="#526051">已执行 · 保留</text>
+      <path d="M799 529h33" stroke="#397461" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="845" y="507" width="180" height="44" rx="10" fill="#dcebd4"/><text x="935" y="536" fill="#2a5c36">未执行 · 审查后更新</text>
+    </g>
+    <text x="640" y="591" fill="#60776a" font-size="19">快照 → 提案 → 审查 → 核对 → 原子应用</text>
+  </g>
+</svg>

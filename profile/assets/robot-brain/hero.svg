@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
+  <title id="title">Robot Brain — From language to real-world action</title>
+  <desc id="desc">Topsun Robot 的具身认知与任务执行框架。深绿色背景，薄荷色文字，以及象征感知与执行闭环的轨道图形。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1a17"/><stop offset="1" stop-color="#173b31"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#9cddb4" stop-opacity=".18"/><stop offset="1" stop-color="#9cddb4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#d7f5da" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1600" height="460" rx="24" fill="url(#bg)"/>
+  <rect width="1600" height="460" rx="24" fill="url(#grid)"/>
+  <circle cx="1290" cy="225" r="280" fill="url(#glow)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="73" fill="#a7c7b6" font-size="17" letter-spacing="5">TOPSUN ROBOT / EMBODIED INTELLIGENCE</text>
+    <text x="70" y="204" fill="#e3f4dd" font-size="112" font-weight="700" letter-spacing="-5">Robot Brain</text>
+    <text x="76" y="265" fill="#f4f7ee" font-size="32">From language to real-world action.</text>
+    <text x="76" y="309" fill="#a7c7b6" font-size="23">Grounded perception. Structured plans. Verified outcomes.</text>
+    <path d="M76 354H947" stroke="#a5c7b6" stroke-opacity=".25"/>
+    <text x="76" y="398" fill="#c4e8bc" font-size="17" letter-spacing="2">UNITREE GO2</text>
+    <text x="276" y="398" fill="#91af9e" font-size="17">/</text>
+    <text x="317" y="398" fill="#c4e8bc" font-size="17" letter-spacing="2">MISSION RUNTIME</text>
+    <text x="588" y="398" fill="#91af9e" font-size="17">/</text>
+    <text x="630" y="398" fill="#c4e8bc" font-size="17" letter-spacing="2">EVIDENCE &amp; MEMORY</text>
+  </g>
+  <g transform="translate(1290 230)" fill="none">
+    <circle r="170" stroke="#bce6c0" stroke-opacity=".12"/>
+    <circle r="126" stroke="#bce6c0" stroke-opacity=".23" stroke-dasharray="3 9"/>
+    <ellipse rx="180" ry="77" transform="rotate(-36)" stroke="#bce6c0" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse rx="180" ry="77" transform="rotate(36)" stroke="#bce6c0" stroke-opacity=".32" stroke-width="2"/>
+    <path d="M-48-26 0-53 48-26V29L0 56-48 29Z M-48-26 0 2 48-26 M0 2V56" stroke="#d9f2d4" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="-143" cy="101" r="8" fill="#d9f2d4"/>
+    <circle cx="148" cy="83" r="6" fill="#d9f2d4"/>
+    <circle cy="-126" r="5" fill="#9cbdac"/>
+  </g>
+</svg>
