@@ -8,6 +8,63 @@
 
 </div>
 
+## 关于中坚智能
+
+近三十年深耕始于优化园林劳作。从植被养护到多维交互，中坚智能正把「解放双手」的命题，从地面延申至立体空间。不止是工具，更是未来生活的智能伙伴。
+
+[TOPSUN-BOT](https://github.com/topsun-bot) 是中坚智能的开源与工程组织，沉淀世界模型与具身基础模型、智能体系统、感知定位、操作仿真与现场技能。现场工程覆盖 Unitree G1 / Go2W 二次开发、安防自主导航、机械臂集成、ROS 2 / SDK 联调与试点验收，公开入口见 [`skills`](https://github.com/topsun-bot/skills)。
+
+<a href="https://github.com/topsun-bot">
+  <img src="https://badges.strrl.dev/years/topsun-bot?style=flat-square&logo=github" alt="Years">
+</a>
+<a href="https://github.com/topsun-bot?tab=repositories">
+  <img src="https://badges.strrl.dev/repos/topsun-bot?style=flat-square&logo=github" alt="Repos">
+</a>
+<a href="https://github.com/topsun-bot?tab=repositories&sort=stargazers">
+  <img src="https://img.shields.io/github/stars/topsun-bot?style=flat-square&logo=github&label=TotalStars" alt="TotalStars">
+</a>
+<a href="https://topbot.topsunpower.cc/">
+  <img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-topbot.topsunpower.cc-d61518?style=flat-square" alt="官网">
+</a>
+<a href="mailto:hello@topsunpower.cc">
+  <img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-hello%40topsunpower.cc-d61518?style=flat-square" alt="邮箱">
+</a>
+
+
+---
+
+## 功能展示
+
+官网产品画面（本地托管，避免 OSS 防盗链）。宣传片为静音循环，GitHub 无法稳定内嵌，请在 [中坚智能官网](https://topbot.topsunpower.cc/) 观看。
+
+<table>
+  <tr>
+    <td align="center" width="33%" valign="top">
+      <img src="assets/hero-lingrui-p1.jpg" alt="工业重载机器狗 灵睿P1" />
+      <br />
+      <strong>工业重载机器狗 · 灵睿 P1</strong>
+      <br />
+      <sub>工业巡检 · 安防协同 · 应急救援</sub>
+    </td>
+    <td align="center" width="33%" valign="top">
+      <img src="assets/hero-goalker.jpg" alt="智能割草机器人 GOALKER H3 PRO" />
+      <br />
+      <strong>智能割草机器人 · GOALKER H3 PRO</strong>
+      <br />
+      <sub>园林智能养护 · 从地面解放双手</sub>
+    </td>
+    <td align="center" width="34%" valign="top">
+      <img src="assets/hero-field.jpg" alt="灵睿智能机器狗现场作业" />
+      <br />
+      <strong>灵睿智能机器狗 · 现场作业</strong>
+      <br />
+      <sub>复杂环境巡检 · 立体空间延伸</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 旗舰自研 · Robot Brain
 
 <div align="center">
@@ -86,63 +143,6 @@
 [**阅读完整技术报告 PDF**](assets/robot-brain/robot-brain-paper.pdf) · [**查看系统架构图**](assets/robot-brain/embodied-agent-framework.svg)
 
 </details>
-
----
-
-## 关于中坚智能
-
-近三十年深耕始于优化园林劳作。从植被养护到多维交互，中坚智能正把「解放双手」的命题，从地面延申至立体空间。不止是工具，更是未来生活的智能伙伴。
-
-[TOPSUN-BOT](https://github.com/topsun-bot) 是中坚智能的开源与工程组织，沉淀世界模型与具身基础模型、智能体系统、感知定位、操作仿真与现场技能。现场工程覆盖 Unitree G1 / Go2W 二次开发、安防自主导航、机械臂集成、ROS 2 / SDK 联调与试点验收，公开入口见 [`skills`](https://github.com/topsun-bot/skills)。
-
-<a href="https://github.com/topsun-bot">
-  <img src="https://badges.strrl.dev/years/topsun-bot?style=flat-square&logo=github" alt="Years">
-</a>
-<a href="https://github.com/topsun-bot?tab=repositories">
-  <img src="https://badges.strrl.dev/repos/topsun-bot?style=flat-square&logo=github" alt="Repos">
-</a>
-<a href="https://github.com/topsun-bot?tab=repositories&sort=stargazers">
-  <img src="https://img.shields.io/github/stars/topsun-bot?style=flat-square&logo=github&label=TotalStars" alt="TotalStars">
-</a>
-<a href="https://topbot.topsunpower.cc/">
-  <img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-topbot.topsunpower.cc-d61518?style=flat-square" alt="官网">
-</a>
-<a href="mailto:hello@topsunpower.cc">
-  <img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-hello%40topsunpower.cc-d61518?style=flat-square" alt="邮箱">
-</a>
-
-
----
-
-## 功能展示
-
-官网产品画面（本地托管，避免 OSS 防盗链）。宣传片为静音循环，GitHub 无法稳定内嵌，请在 [中坚智能官网](https://topbot.topsunpower.cc/) 观看。
-
-<table>
-  <tr>
-    <td align="center" width="33%" valign="top">
-      <img src="assets/hero-lingrui-p1.jpg" alt="工业重载机器狗 灵睿P1" />
-      <br />
-      <strong>工业重载机器狗 · 灵睿 P1</strong>
-      <br />
-      <sub>工业巡检 · 安防协同 · 应急救援</sub>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <img src="assets/hero-goalker.jpg" alt="智能割草机器人 GOALKER H3 PRO" />
-      <br />
-      <strong>智能割草机器人 · GOALKER H3 PRO</strong>
-      <br />
-      <sub>园林智能养护 · 从地面解放双手</sub>
-    </td>
-    <td align="center" width="34%" valign="top">
-      <img src="assets/hero-field.jpg" alt="灵睿智能机器狗现场作业" />
-      <br />
-      <strong>灵睿智能机器狗 · 现场作业</strong>
-      <br />
-      <sub>复杂环境巡检 · 立体空间延伸</sub>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -409,7 +409,7 @@
     <tr>
       <td><a href="https://github.com/topsun-bot/Robot-Brain"><code>Robot-Brain</code></a></td>
       <td align="center"><img alt="内部" src="https://img.shields.io/badge/%E5%8F%AF%E8%A7%81%E6%80%A7-%E5%86%85%E9%83%A8-4b5563?style=flat-square" /></td>
-      <td>主页头条 · 旗舰自研具身大脑（展示与论文见主页顶部）</td>
+      <td>旗舰自研具身大脑（展示与论文见上方「旗舰自研」）</td>
     </tr>
     <tr>
       <td><a href="https://github.com/topsun-bot/topsun-robot-service"><code>topsun-robot-service</code></a></td>
